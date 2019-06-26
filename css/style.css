@@ -1,0 +1,231 @@
+   *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   .container{
+          width: 1170px;
+          margin: auto;
+          position: relative;
+       }
+       .navbar{
+          margin: 10px;
+       }
+       .logo img{
+          height: 60px;
+          padding: 10px;
+          width: 70px;
+          float: left;
+          margin-top: -15px;
+       }
+       nav{
+       	float: left;
+       }
+       nav ul{
+         list-style: none;
+       }
+       nav ul li{
+       	float: left;
+       }
+       nav ul li a{
+       	text-decoration: none;
+       	padding: 15px;
+       	font-size: 20px;
+       	color:black;
+       }
+       nav ul li a:hover{
+       	border-bottom: 2px dashed orange;
+       	transition: 0.5s;
+       	color: green;
+       }
+       .clk{
+       	clear: both;
+       }
+       .ebay img{
+       	height: 80px;
+       	width: 1170px;
+       }
+       .box{
+       	margin-top: -24px;
+       	background: #b79ebc;
+       	width:1170px;
+       	height: 50px;
+       }
+              @keyframes ferrari
+        {
+           0%{left: 0; top:4px; transform: rotate(0deg);}
+           50%{left: 1270px; top:4px; transform: rotate(0deg);}
+           55%{left:1270px; top:4px; transform: rotate(360deg);}
+           95%{left: 0; top: 4px; transform: rotate(360deg); }
+           100%{left: 0; top:4px; transform: rotate(0deg);}
+        }
+        .car{
+          
+          margin: auto;
+          
+          position: relative;
+
+        }
+       .car img{
+       	width:60px;
+       	height: 64px;
+       	animation-name: ferrari;
+       	animation-iteration-count: infinite;
+        animation-duration: 8s;
+        position: absolute;
+       }
+       .body img{
+       	margin-top: 75px;
+       	width: 500px;
+       	height: 300px;
+       	float: left;
+       }
+        .para h1{
+       	font-size: 20px;
+       float: right;
+       color: red;
+       width: 649px;
+       	margin-top: 75px;
+       }
+       .cloudpic img{
+        width: 500px;
+        height: 300px;
+        float: right;
+        margin-top: 20px;
+       }
+       .fact h1{
+        font-size: 20px;
+        color: #b79ebc;
+        margin-top: 20px;
+       }
+       .box2{
+        width: 50px;
+        height: 50px;
+        background: orange;
+        animation: abc;
+        position: absolute;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+       }
+       @keyframes abc{
+         0%{top:13px; left:100px; transform: rotate(360deg);}
+       }
+       .box3{
+        width: 50px;
+        height: 50px;
+        background: red;
+        animation: aba;
+       position: absolute;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+
+       }
+       @keyframes aba{
+         0%{top:13px; left:0px; transform: rotate(360deg);}
+         
+        
+       }
+       .box4{
+        width: 50px;
+        height: 50px;
+        background: green;
+        animation: abd;
+        position: absolute;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+
+       }
+       @keyframes abd{
+         0%{top:13px; left:100px; transform: rotate(360deg);}
+        
+       }
+       .box5{
+        width: 50px;
+        height: 50px;
+        background: blue;
+        animation: abe;
+        position: absolute;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+
+       }
+       @keyframes abe{
+         0%{top:13px; left:200px; transform: rotate(360deg);}   
+       }
+       .box6{
+        width: 50px;
+        height: 50px;
+        background: black;
+        animation: abf;
+        position: absolute;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+
+       }
+       @keyframes abf{
+         0%{top:13px; left:300px; transform: rotate(360deg);}
+         
+        
+       }
+        .box7{
+        width: 50px;
+        height: 50px;
+        background: pink;
+        animation: abg;
+        position: absolute;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+
+       }
+       @keyframes abg{
+         0%{top:13px; left:400px; transform: rotate(360deg);}
+         
+        
+       }
+       .box8{
+        width: 50px;
+        height: 50px;
+        background: orange;
+        animation: abh;
+        position: absolute;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+
+       }
+       @keyframes abh{
+         0%{top:13px; left:500px; transform: rotate(360deg);}
+       }
+       .picanimation{
+        width: 1170px;
+        min-height: 600px;
+        margin: auto;
+        margin-top: 25px;
+        background: linear-gradient( to left, rgba(231, 19, 223, 0.5),rgba(63, 18, 202));
+        position: relative;
+
+       }
+       .picanimation img{
+        opacity: 0.6;
+        width: 1170px;
+        height: 700px;
+        margin:auto;
+       }
+       .picanimation:after{
+        content: '';
+        width: 1400px;
+        height: 779px;
+        background:white;
+        position: absolute;
+        bottom: -315px;
+        left: -96px;
+        border-radius: 150%;
+        transform: rotate(14deg);
+       }
+       
